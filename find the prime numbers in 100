@@ -1,6 +1,6 @@
 class PrimeNumber{
   public static void main(String[] args){
-    //create empty String
+    //create empty String, for function, may have to add conditions for n = 0, n = 1 conditions
     String prime = "";
     for (int i = 1; i <= 100; i++ ){     //for number i
       int counter = 0;                  //count fraction of i, always from 0
